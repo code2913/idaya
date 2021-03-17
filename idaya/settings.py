@@ -25,7 +25,7 @@ SECRET_KEY = '$_ryk-&fu(**2pyd=0y9hdz8crp9_hj8pm-$(#y@%3w=42yj5h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
