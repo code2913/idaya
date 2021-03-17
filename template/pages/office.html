@@ -1,0 +1,102 @@
+{% extends 'pages/base.html' %}
+{% load static %}
+
+{% block content %}
+<section id="slider" class="hero p-0 odd featured">
+    <div class="swiper-container no-slider animation slider-h-80 slider-h-auto">
+        <div class="swiper-wrapper">
+
+            <!-- Item 1 -->
+            <div class="swiper-slide slide-center">
+
+                <!-- Media -->
+                <img src="{% static 'assets/images/office-wide.jpg' %}" alt="Full Image" class="full-image" data-mask="80">
+
+                <div class="slide-content row text-center">
+                    <div class="col-12 mx-auto inner">
+
+                        <!-- Content -->
+                        <nav data-aos="zoom-out-up" data-aos-delay="800" aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Office</li>
+                            </ol>
+                        </nav>
+                        <h1 class="mb-0 title effect-static-text">Office</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>  
+
+
+<section id="single" class="section-2 single">
+    <div class="container">
+        <div class="row text-center">
+
+            <!-- Main -->
+            <div class="col-12 col-lg-12 p-0 text">
+                <div class="row intro m-0">
+                    <div class="col-12">
+                        <div class="title-icon">                                    
+                            <h2><span class="featured">Offices</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 align-self-center">
+                        <p>Corporate culture of a company can be translated into furniture. What’s better than wood to express success and growth?
+                            Communicate your excellence with elegance
+                             </p>
+                    </div>
+                </div>        
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h4 class="title">Reception</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, magnam iusto fugiat totam animi officiis dolorum minima. Quasi inventore mollitia aut natus pariatur dolorem asperiores, recusandae excepturi exercitationem quis dolorum!</p>
+                <div class="gallery row justify-content-center">
+                    <a class="col-6 item" href="{% static 'assets/images/products/9.jpg' %}">
+                        <img src="{% static 'assets/images/products/9.jpg' %}" alt="Gallery" class="w-100">
+                    </a>
+                    <a class="col-6 item" href="{% static 'assets/images/products/10.jpg' %}">
+                        <img src="{% static 'assets/images/products/10.jpg' %}" alt="Gallery" class="w-100">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h4 class="title">Office Desk</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, magnam iusto fugiat totam animi officiis dolorum minima. Quasi inventore mollitia aut natus pariatur dolorem asperiores, recusandae excepturi exercitationem quis dolorum!</p>
+                <div class="gallery row justify-content-center">
+                    <a class="col-6 item" href="{% static 'assets/images/products/11.jpg' %}">
+                        <img src="{% static 'assets/images/products/11.jpg' %}" alt="Gallery" class="w-100">
+                    </a>
+                    <a class="col-6 item" href="{% static 'assets/images/products/12.jpg' %}">
+                        <img src="{% static 'assets/images/products/12.jpg' %}" alt="Gallery" class="w-100">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h4 class="title">Meeting Table</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, magnam iusto fugiat totam animi officiis dolorum minima. Quasi inventore mollitia aut natus pariatur dolorem asperiores, recusandae excepturi exercitationem quis dolorum!</p>
+                <div class="gallery row justify-content-center">
+                    <a class="col-6 item" href="{% static 'assets/images/products/13.jpg' %}">
+                        <img src="{% static 'assets/images/products/13.jpg' %}" alt="Gallery" class="w-100">
+                    </a>
+                    <a class="col-6 item" href="{% static 'assets/images/products/14.jpg' %}">
+                        <img src="{% static 'assets/images/products/14.jpg' %}" alt="Gallery" class="w-100">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}
+    

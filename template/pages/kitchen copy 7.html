@@ -1,0 +1,58 @@
+{% extends 'pages/base.html' %}
+{% load static %}
+
+{% block content %}
+<section id="slider" class="hero p-0 odd featured">
+    <div class="swiper-container no-slider animation slider-h-50 slider-h-auto">
+        <div class="swiper-wrapper">
+
+            <!-- Item 1 -->
+            <div class="swiper-slide slide-center">
+
+                <!-- Media -->
+                <img src="{% static 'assets/images/bg-wide.jpg' %}" alt="Full Image" class="full-image" data-mask="80">
+
+                <div class="slide-content row text-center">
+                    <div class="col-12 mx-auto inner">
+
+                        <!-- Content -->
+                        <nav data-aos="zoom-out-up" data-aos-delay="800" aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Kitchen</li>
+                            </ol>
+                        </nav>
+                        <h1 class="mb-0 title effect-static-text">Kitchen</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>  
+
+
+<section id="single" class="section-1 single">
+    <div class="container">
+        <div class="row">
+
+            <!-- Main -->
+            <div class="col-12 col-lg-12 p-0 text">
+                <div class="row intro m-0">
+                    <div class="col-12">
+                        <div class="title-icon">                                    
+                            <h2>Kitchens</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 align-self-center">
+                        <p>Designing the creative part of the house has never been more interesting. Select your kitchen space material from our wide range selection of hardwood or craft it from the futuristic Melamine.</p>
+                    </div>
+                </div>        
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}
+    

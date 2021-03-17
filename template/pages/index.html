@@ -1,0 +1,205 @@
+{% extends 'pages/base.html' %}
+{% load static %}
+
+
+{% block content %}
+            <!-- Hero -->
+            <section id="slider" class="hero p-0 odd">
+                <div class="swiper-container no-slider animation slider-h-100 slider-h-auto">
+                    <div class="swiper-wrapper">
+    
+                        <!-- Item 1 -->
+                        <div class="swiper-slide slide-center">
+    
+                            <!-- Media -->
+                        
+                            <img src="{% static 'assets/images/slider.jpg' %} "class="full-image to-bottom" alt="" data-mask="70"> 
+                            <div class="slide-content row">
+                                <div class="col-12 d-flex justify-content-start justify-content-md-center inner">
+                                    <div class="center text-left text-md-center">
+    
+                                        <!-- Content -->
+                                        <h1 data-aos="zoom-in" data-aos-delay="2000" class="title effect-static-text">Funiture <span class="featured"><span>Manufacture</span></span></h1>
+                                        <p data-aos="zoom-in" data-aos-delay="2400" class="description mr-auto ml-auto">IDIYA Woodworks embarked on its journey to become the leading woodwork factory in Tanzania and the EAC region.</p>
+                                       
+                                        <!-- Action -->
+                                        <div data-aos="fade-up" data-aos-delay="2800" class="buttons">
+                                            <div class="d-sm-inline-flex">
+                                                <a href="#contact" class="smooth-anchor mt-4 btn primary-button">GET IN TOUCH</a>
+                                                <a href="#features" class="smooth-anchor ml-sm-4 mt-4 btn outline-button">READ MORE</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </section>
+
+    
+            <!-- About -->
+            <section id="about" class="section-2 highlights image-right featured">
+                <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 pr-md-5 align-self-center text-center text-md-left text">
+                        <div data-aos="fade-up"  class="row intro">
+                            <div class="col-12 p-0">
+                                <span class="pre-title m-auto m-md-0">ABOUT US</span>
+                                <h2><span class="featured"><span>Crafting</span></span> Elegance</h2>
+                                <p>IDIYA Woodworks embarked on its journey to become the leading woodwork factory in Tanzania and the EAC region.</p>
+                            </div>
+                        </div>
+                        <div class="row items">                             
+                            <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-4 item">
+                                <h4><i class="mr-2 icon-badge"></i>Team</h4>
+                                <p>Our team of professional craftsmen, together with the most advanced machinery & tools (more than 40 machines) will make sure to meet the clients’ expectations at the most competitive rates.</p>
+                            </div>           
+                            <div data-aos="fade-up" class="col-12 col-md-6 p-0 item">
+                                <h4><i class="mr-2 icon-graduation"></i>Expertise</h4>
+                                <p>The comprehensive and complete range of large capacity machinery makes IDIYA capable of performing and executing big projects in a timely manner without any compromise on quality.</p>
+                            </div> 
+                        </div>
+                        <div class="row items"> 
+                            <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-4 item">
+                                <h4><i class="mr-2 icon-graduation"></i>Sourcing</h4>
+                                <p>Sourcing our own dried wood through our dedicated timber drying division is an important factor in our success. It helps reduce the cost of production and granting an unmatched dry timber, setting us ahead of the competition.</p>
+                            </div>
+
+                            <div data-aos="fade-up" class="col-12 col-md-6 p-0 item">
+                                <h4><i class="mr-2 icon-badge"></i>Quality</h4>
+                                <p>IDIYA offers its clients a wide range of quality products produced locally to replace the need of imported products.</p>
+                            </div>  
+                            
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 p-0 image">
+                        <img src="{% static 'assets/images/about-3.jpg' %}" class="fit-image" alt="Fit Image">
+                    </div>
+                </div>
+                </div>
+            </section>
+    
+
+    
+    
+            <!-- Blog -->
+            <section class="section-2 showcase blog-grid projects">
+                <div class="overflow-holder">
+                    <div class="container">
+                        <div class="row intro">
+                            <div class="col-12 col-md-9 align-self-center text-center text-md-left">
+                                <span class="pre-title m-auto m-md-0">We craft elegance in</span>
+                                <h2>OUR <span class="featured"><span>SERVICES</span></span></h2>
+                                <!-- <p>Every week we publish content about what is best in the business world.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                <div class="row items">
+                    
+                    
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div class="row card p-0 text-center">
+                            <div class="image-over">
+                                <img src="{% static 'assets/images/kitchen.jpg' %}" alt="Lorem ipsum">
+                            </div>
+                            <div class="card-caption col-12 p-0">
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h4>Kitchen</h4>
+                                        <p>&nbsp;</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>            
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div class="row card p-0 text-center">
+                            <div class="image-over">
+                                <img src="{% static 'assets/images/bed.jpg' %}" alt="Lorem ipsum">
+                            </div>
+                            <div class="card-caption col-12 p-0">
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h4>Bedrooms</h4>
+                                        <p>&nbsp;</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>     
+
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div class="row card p-0 text-center">
+                            <div class="image-over">
+                                <img src="{% static 'assets/images/office.jpg' %}" alt="Lorem ipsum">
+                            </div>
+                            <div class="card-caption col-12 p-0">
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h4>Offices</h4>
+                                        <p>&nbsp;</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div class="row card p-0 text-center">
+                            <div class="image-over">
+                                <img src="{% static 'assets/images/furniture.jpg' %}" alt="Lorem ipsum">
+                            </div>
+                            <div class="card-caption col-12 p-0">
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h4>Furnitures</h4>
+                                        <p>&nbsp;</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div class="row card p-0 text-center">
+                            <div class="image-over">
+                                <img src="{% static 'assets/images/doors.jpg' %}" alt="Lorem ipsum">
+                            </div>
+                            <div class="card-caption col-12 p-0">
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h4>Doors and Windows</h4>
+                                        <p>&nbsp;</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div class="row card p-0 text-center">
+                            <div class="image-over">
+                                <img src="{% static 'assets/images/deco.jpg' %}" alt="Lorem ipsum">
+                            </div>
+                            <div class="card-caption col-12 p-0">
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h4>Decoration</h4>
+                                        <p>&nbsp;</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+    
+{% endblock content %}
