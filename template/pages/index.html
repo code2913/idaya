@@ -15,9 +15,8 @@
                         
                             <img src="{% static 'assets/images/slider.jpg' %} "class="full-image to-bottom" alt="" data-mask="70"> 
                             <div class="slide-content row">
-                                <div class="col-12 d-flex justify-content-start justify-content-md-center inner">
+                                <div class="col-12 d-flex justify-content-start justify-content-md-center inner mt-4">
                                     <div class="center text-left text-md-center">
-    
                                         <!-- Content -->
                                         <h1 data-aos="zoom-in" data-aos-delay="2000" class="title effect-static-text">Funiture <span class="featured"><span>Manufacture</span></span></h1>
                                         <p data-aos="zoom-in" data-aos-delay="2400" class="description mr-auto ml-auto">IDIYA Woodworks embarked on its journey to become the leading woodwork factory in Tanzania and the EAC region.</p>
@@ -26,7 +25,6 @@
                                         <div data-aos="fade-up" data-aos-delay="2800" class="buttons">
                                             <div class="d-sm-inline-flex">
                                                 <a href="#contact" class="smooth-anchor mt-4 btn primary-button">GET IN TOUCH</a>
-                                                <a href="#features" class="smooth-anchor ml-sm-4 mt-4 btn outline-button">READ MORE</a>
                                             </div>
                                         </div>
                                     </div>
@@ -102,101 +100,109 @@
                     
                     
                     <div class="col-12 col-md-6 col-lg-4 item">
-                        <div class="row card p-0 text-center">
-                            <div class="image-over">
-                                <img src="{% static 'assets/images/kitchen.jpg' %}" alt="Lorem ipsum">
-                            </div>
-                            <div class="card-caption col-12 p-0">
-                                <div class="card-body">
-                                    <a href="#">
-                                        <h4>Kitchen</h4>
-                                        <p>&nbsp;</p>
-                                    </a>
+                        <a href="{% url 'page:kitchen' %}">
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <img src="{% static 'assets/images/kitchen.jpg' %}" alt="Lorem ipsum">
                                 </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="{% url 'page:kitchen' %}">
+                                            <h4>Kitchen</h4>
+                                            <p>&nbsp;</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="{% url 'page:kitchen' %}"><i class="btn-icon fas fas fa-arrow-right"></i></a>
                             </div>
-                            <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
-                        </div>
+                        </a>
                     </div>            
                     <div class="col-12 col-md-6 col-lg-4 item">
-                        <div class="row card p-0 text-center">
+                        <a href="{% url 'page:bedroom' %}"><div class="row card p-0 text-center">
                             <div class="image-over">
                                 <img src="{% static 'assets/images/bed.jpg' %}" alt="Lorem ipsum">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
-                                    <a href="#">
+                                    <a href="{% url 'page:bedroom' %}">
                                         <h4>Bedrooms</h4>
                                         <p>&nbsp;</p>
                                     </a>
                                 </div>
                             </div>
-                            <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
-                        </div>
+                            <a href="{% url 'page:bedroom' %}"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                        </div></a>
                     </div>     
 
                     <div class="col-12 col-md-6 col-lg-4 item">
-                        <div class="row card p-0 text-center">
+                        <a href="{% url 'page:office' %}"><div class="row card p-0 text-center">
                             <div class="image-over">
                                 <img src="{% static 'assets/images/office.jpg' %}" alt="Lorem ipsum">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
-                                    <a href="#">
+                                    <a href="{% url 'page:office' %}">
                                         <h4>Offices</h4>
                                         <p>&nbsp;</p>
                                     </a>
                                 </div>
                             </div>
-                            <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
-                        </div>
+                            <a href="{% url 'page:office' %}"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                        </div></a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
-                        <div class="row card p-0 text-center">
-                            <div class="image-over">
-                                <img src="{% static 'assets/images/furniture.jpg' %}" alt="Lorem ipsum">
-                            </div>
-                            <div class="card-caption col-12 p-0">
-                                <div class="card-body">
-                                    <a href="#">
-                                        <h4>Furnitures</h4>
-                                        <p>&nbsp;</p>
-                                    </a>
+                        <a href="{% url 'page:furniture' %}">
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <img src="{% static 'assets/images/furniture.jpg' %}" alt="Lorem ipsum">
                                 </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="{% url 'page:furniture' %}">
+                                            <h4>Furnitures</h4>
+                                            <p>&nbsp;</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="{% url 'page:furniture' %}"><i class="btn-icon fas fas fa-arrow-right"></i></a>
                             </div>
-                            <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
-                        <div class="row card p-0 text-center">
-                            <div class="image-over">
-                                <img src="{% static 'assets/images/doors.jpg' %}" alt="Lorem ipsum">
-                            </div>
-                            <div class="card-caption col-12 p-0">
-                                <div class="card-body">
-                                    <a href="#">
-                                        <h4>Doors and Windows</h4>
-                                        <p>&nbsp;</p>
-                                    </a>
+                        <a href="{% url 'page:door' %}">
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <img src="{% static 'assets/images/doors.jpg' %}" alt="Lorem ipsum">
                                 </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="{% url 'page:door' %}">
+                                            <h4>Doors and Windows</h4>
+                                            <p>&nbsp;</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="{% url 'page:door' %}"><i class="btn-icon fas fas fa-arrow-right"></i></a>
                             </div>
-                            <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
-                        <div class="row card p-0 text-center">
-                            <div class="image-over">
-                                <img src="{% static 'assets/images/deco.jpg' %}" alt="Lorem ipsum">
-                            </div>
-                            <div class="card-caption col-12 p-0">
-                                <div class="card-body">
-                                    <a href="#">
-                                        <h4>Decoration</h4>
-                                        <p>&nbsp;</p>
-                                    </a>
+                        <a href="{% url 'page:decoration' %}">
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <img src="{% static 'assets/images/deco.jpg' %}" alt="Lorem ipsum">
                                 </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="{% url 'page:decoration' %}">
+                                            <h4>Decoration</h4>
+                                            <p>&nbsp;</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="{% url 'page:decoration' %}"><i class="btn-icon fas fas fa-arrow-right"></i></a>
                             </div>
-                            <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>

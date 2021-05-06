@@ -101,16 +101,12 @@
                     <!-- Navbar Icons -->
                     <ul class="navbar-nav icons">
                         <li class="nav-item social">
-                            <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.facebook.com/idiya.tanzania/" class="nav-link"><i class="fab fa-facebook-f"></i></a>
                         </li>
                         <li class="nav-item social">
-                            <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
-                        </li>
-                        <li class="nav-item social">
-                            <a href="#" class="nav-link pr-0"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.instagram.com/idiya_tz/" class="nav-link"><i class="fab fa-instagram"></i></a>
                         </li>
                     </ul>
-
                 </div>
             </nav>
 
@@ -127,7 +123,7 @@
                             <span class="featured">
                                 <span class="first">IDIYA</span>
                             </span>
-                            <span class="last">LIMITED</span>
+                            <!-- <span class="last">LIMITED</span> -->
                         </span>
                     </a>
 
@@ -144,6 +140,14 @@
                         <li class="nav-item"><a href="{% url 'page:decoration' %}" class="nav-link">Decoration</a></li>
                         <!-- <li class="nav-item"><a href="#" class="nav-link">About Us</a></li> -->
                         <li class="nav-item"><a href="{% url 'page:contact' %}" class="nav-link">Contact Us</a></li>
+                    </ul>
+                     <!-- mobile Nav link samversion -->
+                     <ul class="navbar-nav toggle">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#menu">
+                                <i class="icon-menu m-0"></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -193,25 +197,26 @@
         </div>
 
         <!-- Modal [responsive menu] -->
-        <div id="menu" class="p-0 modal fade" role="dialog" aria-labelledby="menu" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-slideout" role="document">
-                <div class="modal-content full">
-                    <div class="modal-header" data-dismiss="modal">
-                        <i class="icon-close fas fa-arrow-right"></i>
-                    </div>
-                    <div class="menu modal-body">
-                        <div class="row w-100">
-                            <div class="items p-0 col-12 text-center">
-                                <!-- Append [navbar] -->
+                <!-- Modal [responsive menu] -->
+                <div id="menu" class="p-0 modal fade" role="dialog" aria-labelledby="menu" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-slideout" role="document">
+                        <div class="modal-content full">
+                            <div class="modal-header" data-dismiss="modal">
+                                <i class="icon-close fas fa-arrow-right"></i>
                             </div>
-                            <div class="contacts p-0 col-12 text-center">
-                                <!-- Append [navbar] -->
+                            <div class="menu modal-body">
+                                <div class="row w-100">
+                                    <div class="items p-0 col-12 text-center">
+                                        <!-- Append [navbar] -->
+                                    </div>
+                                    <div class="contacts p-0 col-12 text-center">
+                                        <!-- Append [navbar] -->
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
         <!-- Scroll [to top] -->
         <div id="scroll-to-top" class="scroll-to-top">
