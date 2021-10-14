@@ -1,1 +1,2 @@
-web: gunicorn idaya .wsgi --log-file -
+web: gunicorn idaya.wsgi --log-file -
+
